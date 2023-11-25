@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            <p> Log In ! </p>
+            
+            <form                           >
+                <label for="usernameEnter">Username:</label><br>
+                <input type="text" id="username" name="usernameEnter"><br>
+                <label for="passwordEnter">Password:</label><br>
+                <input type="text" id="password" name="passwordEnter"><br>
+                <label for="teacherOrStudent">Teacher / Student:</label><br>
+                <select name="teacherOrStudent" id="teacherOrStudent">
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                </select>
+            </form>
+
+            <button type="button" onclick="login()">Login</button>
+            <p id="test"></p>
+        </body>
+        <script src="loginCode.js"></script>
+    </html>
+<!DOCTYPE html>
